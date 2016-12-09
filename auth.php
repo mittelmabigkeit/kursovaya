@@ -21,7 +21,7 @@ foreach ($st->fetchAll() as $row)
 if ($pp == $p and $ll == $l)
    require_once "index.html";
 else {
-   require_once "welcom.html";
+   require_once "welcome.html";
 };
 
 ?>
